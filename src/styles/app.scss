@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700;900&display=swap");
+@import "variables";
+* {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+// background
+.bg-prim {
+  background-color: $prim;
+}
+.bg-test-drive {
+  background-color: #7142f2;
+}
+.bg-flexi {
+  background-color: #30b3a6;
+}
+.bg-flexi-plus {
+  background-color: #358e3f;
+}
+.bg-premium {
+  background-color: #94ae20;
+}
+.hover\:bg-prim:hover {
+  background-color: $prim;
+}
+// text
+.text-price {
+  color: #888888;
+}
+.text-prim {
+  color: $prim;
+}
+.text-black {
+  color: $black;
+}
+//
+.border-pink {
+  border-color: rgb(236, 119, 119);
+}
+//
+
+//
+
+//
+.booking_taxi {
+  background-image: url("../img/Bookkeeping bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sm\:outline-none {
+  outline: 0;
+}
+
+.navbar_footer {
+  width: 100%;
+  height: 12px;
+  background: url(//demo.exptheme.com/citycab/wp-content/themes/wp-citycab/images/bg/taxi-stripe.jpg)
+    repeat-x left;
+}
+// others Library
+.carousel .control-dots .dot {
+  background-color: $prim;
+}
+.carousel.carousel-slider .control-arrow {
+  background-color: $prim !important;
+}
